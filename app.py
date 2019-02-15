@@ -51,7 +51,7 @@ logistic_sum=sum(logistic_score)
 
 
 yBar=[(kn_sum/5*100),(tree_sum/5*100),(logistic_sum/5*100)]
-xBar=['Mesos Oros KNeighbors','Mesos Oros Tree','Mesos Oros Logistic']
+xBar=['Average Score of  KNeighbors','Average Score of Tree','Average Score of Logistic']
 
 plt.bar(xBar, yBar, 1/1.15, color="blue")
 plt.show()
